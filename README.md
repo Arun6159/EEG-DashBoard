@@ -29,6 +29,10 @@ This dashboard is an interactive tool for preprocessing and visualizing EEG data
     SUPABASE_URL="YOUR_SUPABASE_URL"
     SUPABASE_KEY="YOUR_SUPABASE_ANON_KEY"
     ```
+## Note:
+
+**
+ The function "calculate_average_band_percentages" might not provide correct percentage calculations due to various factors like noise and artifacts that interfere even after applying standard EEG preprocessing... So this function is still under development and may produce incorrect percentages.**
 
 ### Running the Application
 
@@ -36,6 +40,6 @@ To start the dashboard, run the following command in your terminal:
 ```bash
 python dashboard2.py
 
-### Note:
-**
- The function "calculate_average_band_percentages" might not provide correct percentage calculations due to various factors like noise and artifacts that interfere even after applying standard EEG preprocessing... So this function is still under development and may produce incorrect percentages.**
+
+
+
